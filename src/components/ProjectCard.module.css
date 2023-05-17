@@ -1,0 +1,48 @@
+.taskStatus{
+    display: inline;
+text-align: left;
+border-radius: 3px;
+padding: 6px 8px;
+text-transform: uppercase;
+font-size: 12px;
+font-weight: 500;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-left: -5px;
+position: absolute;
+color: white
+}
+
+.taskTitle{
+    color: hsl(234, 12%, 34%);
+padding: 8px 10px;
+margin-bottom: 5px;
+font-family: 'Poppins', sans-serif;
+font-size: 17px;
+font-weight: 400;
+letter-spacing: 2px
+}
+
+.taskDescription{
+    color: hsl(229, 6%, 66%);
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px
+}
+
+.iconsDiv{
+    display: flex;
+justify-content: space-between;
+align-items: center
+}
+
+.userImg{
+    height: 30px;
+width: 30px;
+border-radius: 50%;
+margin-left: -5px
+}
+
+.icon:hover {
+    cursor: pointer;
+}

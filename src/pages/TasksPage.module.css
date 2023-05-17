@@ -1,0 +1,25 @@
+.TasksPage {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  overflow-x: auto;
+}
+
+.btn__container {
+  margin-top: 50px;
+  padding: 0 80px;
+}
+
+.addProject__btn {
+  background-color: #080f27;
+  color: aliceblue;
+  padding: 10px 20px;
+  border: 2px solid #080f27;
+  border-radius: 5px;
+}
+
+.addProject__btn:hover {
+  background-color: white;
+  color: #080f27;
+  transition: 200ms;
+}

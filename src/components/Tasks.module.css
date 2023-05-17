@@ -1,0 +1,52 @@
+
+/* Very Dark Blue: hsl(234, 12%, 34%)
+Grayish Blue: hsl(229, 6%, 66%)
+Very Light Gray: hsl(0, 0%, 98%) */
+
+/* Red: hsl(0, 78%, 62%)
+Cyan: hsl(180, 62%, 55%)
+Orange: hsl(34, 97%, 64%)
+Blue: hsl(212, 86%, 64%) */
+.title {
+
+
+  }
+.hamberger{
+
+}
+.card{
+background-color: hsl(0, 0%, 98%);
+color:  hsl(229, 6%, 66%);
+box-shadow: 1px 2px 10px rgba(0,0,0,0.2);
+text-align: left;
+margin-bottom: 20px;
+padding: 30px 20px;
+border-radius: 5px;
+transform:scale(0.98);
+transition: all 0.2s ease;
+
+}
+.card:hover{
+  transform: scale(1);
+}
+.cardTitle{
+letter-spacing: 1px;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+color: hsl(234, 12%, 34%);
+font-size: 20px;
+margin: 20px 0;
+}
+.cardDescription{
+  letter-spacing: 1px;
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
+ margin: 10px 0;
+}
+  .button {
+
+  }
+  
+  .para{
+
+  }

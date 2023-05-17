@@ -1,0 +1,49 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 80px;
+  background-color: rgb(8, 15, 39);
+}
+
+.nav__img {
+  width: 50px;
+  height: 50px;
+}
+
+.navLink__container {
+  display: flex;
+  align-items: center;
+}
+
+.nav_logout__btn,
+.nav_dashboard__btn {
+  padding: 8px 16px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #90caf9;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  margin: 0 5px;
+}
+
+.nav_logout__btn:hover,
+.nav_dashboard__btn:hover {
+  background-color: #8cbee7;
+}
+
+/* MEDIA QUERIES */
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .nav {
+    padding: 8px 40px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .nav {
+    padding: 8px 20px;
+  }
+}
